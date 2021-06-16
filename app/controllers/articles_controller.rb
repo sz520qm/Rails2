@@ -1,9 +1,11 @@
-class ArticlesController < ApplicationController
-  def index
-    @articles = Article.all
-  end
+<h1>Articles</h1>
 
-  def show
-    @article = Article.find(params[:id])
-  end
-end
+<ul>
+  <% @articles.each do |article| %>
+    <li>
+      <a href="<%= article_path(article) %>">
+        <%= article.title %>
+      </a>
+    </li>
+  <% end %>
+</ul>
