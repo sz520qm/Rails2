@@ -1,11 +1,23 @@
-<h1>Articles</h1>
+class ArticlesController < ApplicationController
+  def index
+    @articles = Article.all
+  end
 
-<ul>
-  <% @articles.each do |article| %>
-    <li>
-      <a href="<%= article_path(article) %>">
-        <%= article.title %>
-      </a>
-    </li>
-  <% end %>
-</ul>
+  def show
+    @article = Article.find(params[:id])
+  end
+
+  def new
+    @article = Article.new
+  end
+
+  def create
+    @article = Article.new(title: "...", body: "...")
+
+    if @article.save
+      redirect_to @article
+    else
+      render :new
+    end
+  end
+end
