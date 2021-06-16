@@ -1,0 +1,173 @@
+[33mcommit 4c27049d1d15dc5089f3325731134adadcb453ce[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 19:07:45 2021 +0200
+
+    add comment partial
+
+[33mcommit 815e4c1f40fa85d0bc9f6edc0ba61d7cc1d8312e[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 19:05:52 2021 +0200
+
+    update show view
+
+[33mcommit d6f33620803a4e43cd692b13996eab021626790c[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 18:57:25 2021 +0200
+
+    update comments controller
+
+[33mcommit 0ed27549dbbf023a9e4b3c3fd52c04df2ead67b0[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 18:56:37 2021 +0200
+
+    update show view
+
+[33mcommit aedd9c378c9ec07a1f6ee8db157a5804eec06b22[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 18:55:54 2021 +0200
+
+    generate comments controller
+
+[33mcommit fc889f196ff75049a59c093b0a216d6d5e57b82b[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 18:55:16 2021 +0200
+
+    update routes
+
+[33mcommit aab36d751f318e0ae9d072644eae8fd1ca074067[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 18:54:38 2021 +0200
+
+    update article model
+
+[33mcommit 730003c34ec02dfada6080364b09e614b0ca1649[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 18:53:26 2021 +0200
+
+    generate comment  model
+
+[33mcommit b89983da27789e4dff78c16c5cd2b831c9df410e[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 18:44:29 2021 +0200
+
+    add js to destroy action
+
+[33mcommit fb847d45deaf583b293038be2974b4274f3d4adb[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 18:41:41 2021 +0200
+
+    update articles controller
+
+[33mcommit cd997cfa2910b40e1bbf42fc7fcd0845ed01f8fe[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 18:40:56 2021 +0200
+
+    add link to show view
+
+[33mcommit d21e7e3aa37e6459c5d81db8704170c75f8cd140[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 18:31:58 2021 +0200
+
+    create edit view
+
+[33mcommit 02e83f5ba76aaf063fa7bb515c9e2d2316bec9cd[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 18:30:57 2021 +0200
+
+    update new view
+
+[33mcommit 65a916bbe89827b2a49cca469222ab3c1eb9fe4d[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 18:30:13 2021 +0200
+
+    create form partial
+
+[33mcommit 9e677eade062f8cbdb1b27ce7cbae2e7a71cae61[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 17:54:35 2021 +0200
+
+    add link to index
+
+[33mcommit b0a495487c54a4e1014f7242aa0bec0e9fffadf4[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 17:53:26 2021 +0200
+
+    add validations to new view
+
+[33mcommit 5b43285000cdb0f0972bf14f6167d8d582c5b24c[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 17:51:33 2021 +0200
+
+    update articles controller with strong parameters
+
+[33mcommit 2143c81e0510ed0bc0769f5bbd4c7ed1be00eb61[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 17:50:00 2021 +0200
+
+    add and update new view
+
+[33mcommit 27f9caa803fd5a28fcc1f9445c908b8c5b307478[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 17:48:55 2021 +0200
+
+    create new article
+
+[33mcommit e70ca47f4975be60ae73039674884e265845da25[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 17:48:20 2021 +0200
+
+    update index view
+
+[33mcommit 3f6c2f83f1a32eb69ed3bf35f300ad2ef24ae4ba[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 17:47:21 2021 +0200
+
+    update routes with articles resource
+
+[33mcommit 54548c00b6913cf316dc44c6db1cdbb10bdeff5d[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 17:44:10 2021 +0200
+
+    create show view
+
+[33mcommit 7f3f2a5568ecc17f8fc3352b5f089a517e25b61d[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 17:42:09 2021 +0200
+
+    update routes to include single article
+
+[33mcommit 846372e6a03f362600554aced5c5797d5f58a7d1[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 17:40:56 2021 +0200
+
+    show a list of article
+
+[33mcommit 11f08a01ebc1306cb45ba120ebe7d0e57ee68eee[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 17:38:54 2021 +0200
+
+    update articles controller
+
+[33mcommit 22c362d454e62044cf9b91481cf436b3cd65d818[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 17:36:14 2021 +0200
+
+    create article model
+
+[33mcommit 2e2696909e6dc63f0d0cf8325964b3616d8f76d5[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 17:35:17 2021 +0200
+
+    set root route
+
+[33mcommit 465297e2e90a7370d8ad0fb6a9378138c3a8d5f6[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 17:02:32 2021 +0200
+
+    create articles controller
+
+[33mcommit 2ecefb0a1b1837d525df8aae9a24160f15ba7f86[m
+Author: sz520qm <dudleylouw3@gmail.com>
+Date:   Wed Jun 16 16:53:31 2021 +0200
+
+    add route
