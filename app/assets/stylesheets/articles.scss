@@ -1,3 +1,33 @@
 // Place all the styles related to the Articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+//Links Mixin
+@mixin links ($link, $visited, $hover, $active) {
+    & {
+        color: $link;
+        &:visited {
+            color: $visited;
+        }
+        &:hover {
+            color: $hover;
+        }
+        &:active, &:focus {
+            color: $active;
+        }
+    }
+}
+
+a { @include links(orange, blue, yellow, teal); }
+
+//Styling not needed for demo
+a {
+    text-decoration: none!important;
+    padding: 4px 10px;
+   
+    background: rgb(255, 255, 255);
+}
+pre, code, p { text-align: left; }
+code { background: none; box-shadow: none; font-size: 18px; }
+h2 { text-align: left; }
+* { font-weight: normal !important /*o_O*/; }

@@ -14,7 +14,7 @@
       </h3>
 
       <article class="blog-post">
-        <h2 class="blog-post-title"><%= @article.title %></h2>
+        <h2 class="blog-post-title" ><%= @article.title %></h2>
         <p class="blog-post-meta">January 1, 2021 by <a href="#">dudley</a></p>
 
       
@@ -27,14 +27,9 @@
 
     <span style="float:right;">  <%= link_to "Delete", article_path(@article),
                     method: :delete,
-                    data: { confirm: "Are you sure?" } %></span>
+                    data: { confirm: "Are you sure?" } %></span><hr>
 
-  
-
-
-
-
-  <h5>Comments</h5>
+  <h5 class="mt-5 mb-3">Comments</h5>
   <%= render @article.comments %>
   <br>
   <hr>
