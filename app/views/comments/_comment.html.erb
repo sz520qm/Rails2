@@ -1,25 +1,23 @@
 <%
 =begin%>
- <div>comments/_comment.html.erb</div> 
+<div>comments/_comment.html.erb</div>
 <%
 =end%>
 
 <div class="bg-light p-4 mb-3">
-  <strong>
-  <%= comment.commenter %></strong><br>
+    <strong>
+        <%= comment.commenter %></strong><br>
 
 
 
-  
-  <%= comment.body %>
+
+    <%= comment.body %>
 
 
-<p style="float:right;">
-  <%= link_to 'Delete', [comment.article, comment],
+    <p style="float:right;">
+        <%= link_to 'Delete', [comment.article, comment],
               method: :delete,
               data: { confirm: "Are you sure?" } %>
-</p><br>
+    </p><br>
 
 </div>
-
-

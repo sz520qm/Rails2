@@ -1,27 +1,25 @@
-
 <%= form_with model: [ @article, @article.comments.build ] do |form| %>
 <%
 =begin%>
- <div>comments/_form.html.erb</div> 
+<div>comments/_form.html.erb</div>
 <%
 =end%>
-  <p> 
+<p>
     <%= form.label :name %><br>
     <%= form.text_field :commenter, class:"form-control" %>
-  </p>
-  <p>
+</p>
+<p>
     <%= form.label :comment %><br>
     <%= form.text_area :body, class:"form-control" %>
-  </p>
-
-  <p class="mt-4">
-  <%= form.label :status %><br>
-  <%= form.select :status, ['public', 'private', 'archived'], selected: 'public' %>
 </p>
 
-  <p class="p-4">
-    <%= form.submit class:"btn btn-sm btn-primary" %>
-  </p>
-  <hr>
-<% end %>
+<p class="mt-4">
+    <%= form.label :status %><br>
+    <%= form.select :status, ['public', 'private', 'archived'], selected: 'public' %>
+</p>
 
+<p class="p-4">
+    <%= form.submit class:"btn btn-sm btn-primary" %>
+</p>
+<hr>
+<% end %>
