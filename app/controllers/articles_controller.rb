@@ -1,10 +1,13 @@
 class ArticlesController < ApplicationController
   def index
+   
     @articles = Article.all
+
   end
 
   def show
     @article = Article.find(params[:id])
+
     @recent_articles = Article.order(updated_at: :desc).limit(5)
   end
 
